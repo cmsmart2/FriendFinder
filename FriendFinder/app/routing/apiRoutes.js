@@ -5,3 +5,11 @@ module.exports = function(app){
         res.json(friends)
     })
 }
+app.post("/api/friends", function(req, res){
+    let match = {
+        name: "",
+        photo: "",
+        difference: 100
+    };
+    console.log(req.body)
+})

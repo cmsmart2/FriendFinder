@@ -9,131 +9,168 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<script src="https://code.jquery.com/jquery.js"></script>
 </head>
 <body>
     <div class="card text-center m-4">
         <div class="card-header">
-          Friend Finder Quiz
-          Pick an a number 1 through 5 with 1 being strongly disagree and 5 being strongly agree.
+          <h1>Friend Finder Quiz</h1>
+          <h3>Pick an a number 1 through 5 with 1 being strongly disagree and 5 being strongly agree.</h3>
         </div>
         <div class="card-body">
             <h5 class="card-title">Question 1</h5>
                 <p class="card-text">You are always tired.</p>
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="one">
                             <option value=""> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option> 
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select>
+                            </select>
+                        </div>
             <h5 class="card-title">Question 2</h5>
                 <p class="card-text">You are always hungry.</p>
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="two">
                             <option value=""> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option> 
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select>
+                            </select>
+                        </div>
             <h5 class="card-title">Question 3</h5>
                 <p class="card-text">You are always happy.</p>
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="three">
                             <option value=""> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>  
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select>
+                            </select>
+                        </div>
             <h5 class="card-title">Question 4</h5>
                 <p class="card-text">You are always grumpy.</p>
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="four">
                             <option value=""> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option> 
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select>
+                            </select>
+                        </div>
             <h5 class="card-title">Question 5</h5>
                 <p class="card-text">You are intelligent.</p>
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="five">
                             <option value=""> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option> 
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select>
+                            </select>
+                        </div>
             <h5 class="card-title">Question 6</h5>
                 <p class="card-text">You are shy.</p>
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="six">
                             <option value=""> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>  
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select>
+                            </select>
+                        </div>
             <h5 class="card-title">Question 7</h5>
                 <p class="card-text">You are a leader.</p>
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="seven">
                             <option value=""> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option> 
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select>
+                            </select>
+                        </div>    
             <h5 class="card-title">Question 8</h5>
                 <p class="card-text">You like playing games.</p>
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="eight">
                             <option value=""> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option> 
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select>
+                            </select>
+                        </div>
             <h5 class="card-title">Question 9</h5>
                 <p class="card-text">You have bad allergies.</p>
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="nine">
                             <option value=""> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option> 
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select>
+                            </select>
+                        </div>
             <h5 class="card-title">Question 10</h5>
                 <p class="card-text">You like listening.</p>
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="ten">
                             <option value=""> </option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option> 
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select>
-            <br>
-            <a href="#" class="btn btn-primary">Submit</a>
-        </div>
+                            </select>
+                        </div>
+                    <br>
+            <button type="submit" class="btn btn-primary submit">Submit</button>     
       </div>
 <footer class="footer">
-    <a href="#">API Friends List</a> | <a href="#">GitHub Repo</a>
+    <a href="/api/friends">API Friends List</a> | <a href="#">GitHub Repo</a>
 </footer>
 </body>
 </html>
+<script type="text/javascript">
+$(".submit").on("click", function(event){
+    event.preventDefault();
+    let newAnswer = {
+        name: "user",
+        photo: "none",
+        score: [
+        $("#one").val(),
+        $("#two").val(),
+        $("#three").val(),
+        $("#four").val(),
+        $("#five").val(),
+        $("#six").val(),
+        $("#seven").val(),
+        $("#eight").val(),
+        $("#nine").val(),
+        $("#ten").val(),
+        ]
+    }
+    console.log(newAnswer);
+
+    $.post("/api/friends", newAnswer, function(data){
+        
+    })
+})
+
+
+</script>

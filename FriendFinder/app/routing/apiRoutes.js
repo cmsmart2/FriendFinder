@@ -19,6 +19,7 @@ app.post("/api/friends", function(req, res){
     let totalDifference = 0;
 
 for (var a =0; a<friends.length; a++){
+    totalDifference =0;
     for (var i = 0; i< friends[a].scores[i]; i++){
         totalDifference += Math.abs(parseInt(userScore[i])- parseInt(friends[a].scores[i]))
         if (totalDifference <= match.difference){

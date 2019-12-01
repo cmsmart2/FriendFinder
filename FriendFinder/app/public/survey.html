@@ -168,7 +168,9 @@ $(".submit").on("click", function(event){
     console.log(newAnswer);
 
     $.post("/api/friends", newAnswer, function(data){
-        
+        if(data){
+            console.log("calculating");
+        }
     })
 })
 

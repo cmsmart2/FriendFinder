@@ -1,7 +1,7 @@
 const friends = [
     {
     name:"Dopey",
-    photo:"./data/images/dopey.jpg",
+    photo:"images/dopey.jpg",
     scores:[
         1,
         3,
@@ -17,7 +17,7 @@ const friends = [
   }, 
   {
     name:"Grumpy",
-    photo:"./data/images/grumpy.jpg",
+    photo:"images/grumpy.jpg",
     scores:[
         4,
         4,
@@ -33,7 +33,7 @@ const friends = [
   }, 
   {
     name:"Doc",
-    photo:"./data/images/doc.jpg",
+    photo:"images/doc.jpg",
     scores:[
         3,
         3,
@@ -49,7 +49,7 @@ const friends = [
   }, 
   {
     name:"Bashful",
-    photo:"./data/images/bashful.jpg",
+    photo:"images/bashful.jpg",
     scores:[
         2,
         2,
@@ -65,7 +65,7 @@ const friends = [
   }, 
   {
     name:"Sleepy",
-    photo:"./data/images/sleepy.jpg",
+    photo:"images/sleepy.jpg",
     scores:[
         5,
         1,
@@ -81,7 +81,7 @@ const friends = [
   }, 
   {
     name:"Sneezy",
-    photo: "./data/images/sneezy.jpg",
+    photo: "images/sneezy.jpg",
     scores:[
         4,
         3,
@@ -97,7 +97,7 @@ const friends = [
   }, 
   {
     name:"Happy",
-    photo:"./data/images/happy.jpg",
+    photo:"images/happy.jpg",
     scores:[
         1,
         1,
